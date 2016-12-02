@@ -5,6 +5,12 @@ Gra została oparta na tytule *River Ride* i jest napisana w języku *Phyton 3.5
 
 # Instrukcja
 
+Grę uruchamiamy wpisując w konsolę komendę
+```
+./main_game.py
+```
+Musimy znajdywac się w scieżce zawierającego wszystkie pozostałe skrypty i foldery dołączone do powyższego pliku.
+
 W grze dostępne są trzy okna:
 * MENU
 * OPTIONS
@@ -61,7 +67,13 @@ Gra została udostępniona pod licencją  MIT.
 During Python programming course at university a simple arcade was created, using **Pygame** pakacge. The game was based on original *River Ride* game and was developed i *Python 3.5* programming language. This file contains hsort description and instructions how to start playing and the list of sources of used files. 
 
 # Instructions 
- 
+
+We run the game by typing in command window the following text
+```
+./main_game.py
+```
+The directory is presumed to contain all the other files commited with the game.
+
 In game three windows are available:
 * MENU
 * OPTIONS
