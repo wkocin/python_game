@@ -33,8 +33,9 @@ Celem gry jest pokonanie jak największej odległości i uzyskanie jak najwięks
 Po planszy poruszamy się czerownym statkiem przy pomocy klawiszy
 * <kbd>UP</kbd> oraz <kbd>DOWN</kbd> w osi pionowej,
 * <kbd>LEFT</kbd> oraz <kbd>RIGHT</kbd> w osi poziomej.
+
 By zestrzelwać nadlatujące obiekty używamy klaiwsza <kbd>SPACE</kbd>.  W rogach ekranu widoczne są parametry statku: poziom paliwa i schłodzenia broni. Pierwszy uzupełniamy zestrzeliwując nadpływające beczki. Drugi opada automatycznie gdy przestaniemy strzelać. 
-W lewym, górnym rogu wyświetla się nasz aktualny wynik który zależy od liczby i rodzaju zniszczonych obiektów.
+W lewym, górnym rogu wyświetla się nasz aktualny wynik, który zależy od liczby i rodzaju zniszczonych obiektów.
 Rozbicie pojazdu nastąpi w skutek:
 * Kolizji z:
   * helikopterem,
@@ -55,6 +56,7 @@ Gra została udostępniona pod licencją  MIT.
 
 # Źródła plików wykorzystanych podczas tworznia gry
 
+* Czcionka zostłą pobrana ze strony http://www.dafont.com/
 * Pliki dźwiękowe zostały pobrane ze strony http://soundbible.com/ , w oparciu o licencję CC BY 3.0.
 * Pliki graficzne zostały pobrane ze stron:
   * http://www.pd4pic.com/ 
@@ -75,11 +77,13 @@ We run the game by typing in command window the following text
 The directory is presumed to contain all the other files commited with the game.
 
 In game three windows are available:
+
 * MENU
 * OPTIONS
 * GAME WINDOW
 
 In *MENU* we move using <kbd>UP</kbd> and <kbd>DOWN</kbd> keys. We confirm our choice by klicking <kbd>ENTER</kbd> key. Three options are available
+
 * *START*: starts the game.
 * *OPTIONS*: initializes OPTIONS menu.
 * *QUIT*: ends game and closes the window.
@@ -95,6 +99,7 @@ file.
 The aim of the game is to cover the longest distance and score as many points as possible by shooting down enemies and other obstacles. We move using arrow keys, namely
 * <kbd>UP</kbd> and <kbd>DOWN</kbd>,
 * <kbd>LEFT</kbd> and <kbd>RIGHT</kbd>.
+
 To shoot down incoming objects we press  <kbd>SPACE</kbd>. In the bottom corners of the screen we can see two mesueres of ship parameters - cooldown rate and fuel level. We fill the tank by shooting incoming barrels. The gun cools down automatically afetr we stop shooting. 
 In the left top corner we can observe our actual score, which depends on number of shoot down objects. The crush follows events like:
 * Collison with:
@@ -114,6 +119,8 @@ In the OPTIONS submenu we can change frequency of incoming helicopters, islands 
 The game is lincsed under MIT License.
 
 #  Sources of used files 
+
+* The font was downloaded from http://www.dafont.com/
 * Sound files were downloaded from http://soundbible.com/ , under CC BY 3.0 License.
 * Graphic files were downloaded from:
   * http://www.pd4pic.com/ 
